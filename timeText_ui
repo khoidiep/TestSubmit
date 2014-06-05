@@ -1,12 +1,8 @@
 
 #!/bin/sh
 
-HOST=localhost
-PORT=1234
-
 GETTEXT="gettext -d timeText_ui"
 
-TIME="nc $HOST $PORT"
 
 which gdialog 2> /dev/null && DIALOG=gdialog || DIALOG=dialog
 
