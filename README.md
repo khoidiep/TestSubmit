@@ -33,9 +33,9 @@ Step 5. Make the Makefile by typing the command make --makefile=Makefile to inst
 
 Exercise 1 TEXT USER INTERFACE
 
-Step 1. Clone the repository in your machine by typing the command "git clone https://github.com/fsangogboye/test.git
+Step 1. Clone the repository in your machine by typing the command "git clone https://github.com/fsangogboye/TestSubmit.git
 
-Step 2. Navigate to the test folder in the home directory using "cd test"
+Step 2. Navigate to the TestSubmit folder in the home directory using "cd TestSubmit"
 
 Step 3. List by typing the "ls"
 
