@@ -9,5 +9,5 @@ na=`cat /tmp/input.$$`
 
 MSG="Hello $na, your time now is:  \n\n$now1"
 
-$DIALOG --yesno "$MSG" 7 20 || end
+$DIALOG --yesno "$MSG" 7 35 || end
 	
