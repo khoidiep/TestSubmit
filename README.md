@@ -27,6 +27,8 @@ Step 3. Install xinetd (Extended Internet Services Daemon) by typing in the comm
 
 Step 4. Install netCat by typing in the command "yum -y install nc"
 
+Step 5. Make the Makefile by typing the command make --makefile=Makefile to install necessary programs and copy required files to system folders.
+
 Exercise 1 TEXT USER INTERFACE
 
 Step 1. Clone the repository in your machine by typing the command "git clone https://github.com/fsangogboye/test.git
@@ -57,19 +59,23 @@ Step 5. This should give you the time in that City
 
 Exercise 3 NETWORKCLIENT-SERVICE IMPLEMENTATION
 
-Step 1. List by typing the "ls"
+Step 1. Enter "nc localhost 1234" to run the networkclient service application.
 
-Step 2. identify the "timeText ui" file and enter the command "chmod 755 timeText_ui" to enable access file permission to timeGUI file
+Step 2. Enter the "your_continent/city" and click "OK"
 
-Step 3. Enter "nc localhost 1234" to create service client and TCP connection to server /usr/local/bin/timeTEXT.
+Step 3. This should give you the time in that City
 
-Step 4. Enter "./timeText_ui" to run the program
+Exercise 4 LOCALIZATION TO YOUR OWN LANGUAGE
 
-Step 5. Enter the "your_continent/city" and click "OK"
+Step 1. Note: we have chosen Finnish Language as our language
 
-Step 6. This should give you the time in that City
+Step 2. Render the application in Finnish Language type the command LANG=fi_FI ntimeText_ui
 
+Step 3. This should display a GUI in Finnish language
 
+Step 4. Enter the "your_continent/city" and click "OK"
+
+Step 5. This should give you the time in that City
 
 
 
