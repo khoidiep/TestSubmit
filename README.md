@@ -20,9 +20,9 @@ Instruction on how to run the Program
 
 Requirements:
 
-Step 1. Install git by typing in the command line "apt-get install git"
+Step 1. Install git by typing in the command line "yum -y install git"
 
-Step 2. Install dialog by typing in the command "apt-get install dialog"
+Step 2. Install dialog by typing in the command "yum -y install dialog"
 
 Step 3. Install xinetd (Extended Internet Services Daemon) by typing in the command "apt-get install xinetd"
 
