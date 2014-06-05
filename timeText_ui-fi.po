@@ -1,0 +1,10 @@
+msgid ""
+msgstr ""
+
+#: calc_ui:24
+msgid "Enter Continent/City:"
+msgstr "Anna maanosa / kaupunki:"
+
+#: calc_ui:28
+msgid "Your time is:"
+msgstr "Aikasi on:"
