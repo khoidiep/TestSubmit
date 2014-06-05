@@ -24,7 +24,7 @@ Step 1. Install git by typing in the command line "yum -y install git"
 
 Step 2. Install dialog by typing in the command "yum -y install dialog"
 
-Step 3. Install xinetd (Extended Internet Services Daemon) by typing in the command "apt-get install xinetd"
+Step 3. Install xinetd (Extended Internet Services Daemon) by typing in the command "yum -y install xinetd"
 
 Step 4. Install netCat by typing in the command "yum -y install nc"
 
