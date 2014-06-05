@@ -1,0 +1,14 @@
+#!/bin/sh
+
+DIALOG=${DIALOG=dialog}
+
+$DIALOG --inputbox "Enter Continent/City:" 8 35 2>/tmp/input.$$
+
+now1=$(export TZ=`cat /tmp/input.$$`;date)
+na=`cat /tmp/input.$$`
+
+MSG="Hello $na, your time now is: \n\n$now1"
+
+$DIALOG --yesno "$MSG" 8 35 || end
+	
+
