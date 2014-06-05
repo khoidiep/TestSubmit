@@ -15,6 +15,7 @@ Exercise_3 -- Networked Client-Service Implementation.
 
 Exercise_4 -- Localization to your own language
 
+
 Instruction on how to run the Program
 
 Requirements:
@@ -28,6 +29,7 @@ Step 3. Install xinetd (Extended Internet Services Daemon) by typing in the comm
 Step 4. Install netCat by typing in the command "yum -y install nc"
 
 Step 5. Make the Makefile by typing the command make --makefile=Makefile to install necessary programs and copy required files to system folders.
+
 
 Exercise 1 TEXT USER INTERFACE
 
@@ -45,6 +47,7 @@ Step 6. Enter the "your_continent/city" and enter "OK"
 
 Step 7. This should give you the time in that City
 
+
 Exercise 2 GRAPHICAL USER INTERFACE
 
 Step 1. List by typing the "ls"
@@ -57,6 +60,7 @@ Step 4. Enter the "your_continent/city" and click "OK"
 
 Step 5. This should give you the time in that City
 
+
 Exercise 3 NETWORKCLIENT-SERVICE IMPLEMENTATION
 
 Step 1. Enter "nc localhost 1234" to run the networkclient service application.
@@ -64,6 +68,7 @@ Step 1. Enter "nc localhost 1234" to run the networkclient service application.
 Step 2. Enter the "your_continent/city" and click "OK"
 
 Step 3. This should give you the time in that City
+
 
 Exercise 4 LOCALIZATION TO YOUR OWN LANGUAGE
 
