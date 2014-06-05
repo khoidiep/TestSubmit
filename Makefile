@@ -1,5 +1,6 @@
 install: timeText_ui-fi.mo
 	yum -y install xinetd	
+	which gdialog >/dev/null 2>&1 || install gdialog /usr/local/bin
 	install timeTEXT timeText_ui timeGUI timeTUI /usr/local/bin
 	grep -q "`cat timeTEXT.services`" /etc/services || cat timeTEXT.services >> /etc/services
 	install timeTEXT.xinetd /etc/xinetd.d/timeTEXT
