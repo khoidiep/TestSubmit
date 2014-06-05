@@ -1,0 +1,11 @@
+# default: on
+# description: The time server
+service timeTEXT
+{
+	flags		= REUSE
+	socket_type	= stream        
+	wait		= no
+	user		= nobody
+	server		= /usr/local/bin/timeTEXT
+	disable		= no
+}
