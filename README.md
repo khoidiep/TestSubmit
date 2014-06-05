@@ -3,6 +3,9 @@ TestSubmit
 
 Assignment Solution
 
+Author Name: Sangogboye Fisayo Caleb
+
+
 Exercise Questions
 ====
 Unix shell programming examples with a calculator functionality.
