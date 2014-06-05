@@ -1,9 +1,13 @@
+
 #!/bin/sh
 
+TIME=timeTEXT
+HOST=localhost
+PORT=1234
 
 GETTEXT="gettext -d timeText_ui"
 
-
+TIME="nc $HOST $PORT"
 
 which gdialog 2> /dev/null && DIALOG=gdialog || DIALOG=dialog
 
@@ -16,3 +20,4 @@ which gdialog 2> /dev/null && DIALOG=gdialog || DIALOG=dialog
 	MSG="`$GETTEXT \"Your time is:\"` $now1" 
 	#MSG1="`$GETTEXT \"Hello $na, your time now is:\"` \n\n$now1\\n\\n"
 		$DIALOG --yesno "$MSG" 7 20 || end
+
