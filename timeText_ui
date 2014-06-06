@@ -1,7 +1,7 @@
 
 #!/bin/sh
 
-na = /tmp/input.$$
+na = /tmp/input-$$
 
 GETTEXT="gettext -d timeText_ui"
 
