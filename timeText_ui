@@ -1,16 +1,22 @@
 
 #!/bin/sh
 
+na = /tmp/input.$$
+
 GETTEXT="gettext -d timeText_ui"
 
 
 which gdialog 2> /dev/null && DIALOG=gdialog || DIALOG=dialog
 
+end () {
+	rm -f $na $now1 
+	exit
+}
 
-	$DIALOG --inputbox "`$GETTEXT \"Enter Continent/City:\"`" 8 35 2> /tmp/input.$$
+	$DIALOG --inputbox "`$GETTEXT \"Enter Continent/City:\"`" 8 35 2> $na
 
-       	now1=$(export TZ=`cat /tmp/input.$$`;date)
-	na=`cat /tmp/input.$$`
+       	now1=$(export TZ=`cat $na`;date)
+	na1=`cat $now1`
 
 	MSG="`$GETTEXT \"Your time is:\"` $now1" 
 	#MSG1="`$GETTEXT \"Hello $na, your time now is:\"` \n\n$now1\\n\\n"
